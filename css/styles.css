@@ -1,0 +1,177 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+/* Nav bar */
+.navbar-brand{
+  font-family: 'Ubuntu-bold', sans-serif;
+  font-size: 1.8rem;
+  }
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/* title and heading section */
+
+
+#title .conatiner-fluid{
+  padding: 3% 15% 7%;
+  text-align: left
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+.container-fluid-title{
+  padding: 2% 15% 7%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+.tindog-image{
+  position: relative;
+}
+
+.tin-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+  }
+
+  @media
+   (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+     .tin-image {
+       position: static;
+       transform:rotate(0);
+     }
+}
+
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* features section */
+
+#features{
+  position: relative;
+  z-index: 1;
+
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-image{
+  border-radius: 100%;
+  width: 7%;
+  margin: 20px;
+}
+
+
+
+
+/* press section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 13%;
+  margin: 20px 20px 30px;
+}
+
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+
+
+/* Footer Section */
+.footer-icon{
+  margin: 20px 10px;
+}
